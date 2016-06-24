@@ -57,13 +57,3 @@ https://myappdirectchallenge.herokuapp.com/user/assignment/notification/assign?u
 
 ###User Unassignment Notification URL
 https://myappdirectchallenge.herokuapp.com/user/assignment/notification/unassign?url={eventUrl}
-
-## Challenges while deploying to Heroku
-1. Database is not accessible with proper host/database/user/port/password
-	-Solution- check for your configuration in the application.properties
-2. While Integration testing from your marketplace, if the subscription event like create/change/cancel returns errors, that means 
-	the table schema is not proper/missing fields
-3. OAuth Consumer key and secret key has to be taken from the product marketplace Edit Integration tab
-
-
-
